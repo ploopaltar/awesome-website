@@ -1,13 +1,24 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
+  "name": "awesome-website",
+  "version": "0.0.1",
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
-  "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ploopaltar/awesome-website.git"
+  },
+  "author": "Colin Tan <colin.tan@ir.com>",
+  "dependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web",
+    "site"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ploopaltar/awesome-website/issues"
+  },
+  "homepage": "https://github.com/ploopaltar/awesome-website#readme"
 }
